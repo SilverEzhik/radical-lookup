@@ -19,15 +19,24 @@
     <div id="tool" style="display: none">
         <p>
         <form onsubmit="return openJisho()" action="#">
-            Kanji: <input type="text" id="input" oninput="getRadicals(this)"> <a onclick="clearInput()">Clear</a>
-            <br>
-            <div class="list" id="radical-list"></div>
-            Selected radicals:<br>
-            <div class="list" id="selected-radicals-list"></div>
-            Found kanji:<br>
-            <div class="list" id="kanji-list"></div>
-            Output: <input type="text" name="out" id="output" required>
-            <a onclick="openJisho()">Search Jisho</a>
+            <p>
+                Kanji: <input type="text" id="input" oninput="getRadicals(this)"> <a onclick="clearInput()">Clear</a>
+            </p>
+            <p>
+                <div class="list" id="radical-list"></div>
+            </p>
+            <p>
+                Selected radicals:<br>
+                <div class="list" id="selected-radicals-list"></div>
+            </p>
+            <p>
+                Found kanji:<br>
+                <div class="list" id="kanji-list"></div>
+            </p>
+            <p>
+                Output: <input type="text" name="out" id="output" required> 
+                <a onclick="openJisho()">Search Jisho</a>
+            </p>
         </form> 
         </p> 
         <p><a href="https://github.com/SilverEzhik/radical-lookup">GitHub</a></p>
