@@ -1,0 +1,71 @@
+#
+#                           K R A D F I L E
+#
+#	Copyright 2001/2007 Michael Raine, James Breen and the Electronic
+#       Dictionary Research & Development Group 
+#	See: http://www.edrdg.org/edrdg/licence.html
+#       for permissions for use and redistribution.
+# 
+# This is the data file from which the "radkfile" is made, which in turn
+# drives the multi-radical lookup method in XJDIC, WWWJDIC and possibly 
+# other dictionary and related software.
+# 
+# The file is based on work done in 1994/1995 by Michael Raine in which he
+# analyzed all the JIS1/2 kanji and identified the constituent radicals and 
+# other common elements, with the intention of facilitating the selection of
+# kanji within a dictionary program by identifying multiple elements.
+# The file was revised by Jim Breen in September 1995. Further revisions were
+# done in 1998/9 at the suggestion of Wolfgang Conrath, then a revision was
+# carried out in 2001 using suggestions from Yutaka Ohno based on a similar
+# decomposition made by Kobayashi. Further amendments were made in July
+# 2001 after suggestions from Hendrik.
+#
+# The file has been updated on numerous occasions since then.
+# 
+# The file consists of 6,355 lines of text; one for each of the 
+# JIS X 0208-1997 kanji. Each line is a follows:
+# - the kanji itself,
+# - a space followed by a colon (:) followed by a space,
+# - one or more radicals/elements which can be seen in the kanji. These
+#   are drawn from JIS X 0208-1997. Where the element alone is not in
+#   JIS X 0208, a kanji which contains the element is used instead.
+#
+# The decomposition is based on what can be seen in typical kanji
+# glyphs. Elements themselves can be further subdivided. For example,
+# 舌 is an element and so is 口, so the elements in 話 are <口 舌 言>.
+# 
+# The elements used have been drawn from JIS X 0208. As this codeset
+# does not contain the exact elements, characters have been chosen
+# which contain the element. For example, 艾 is used for the kusa-kanmuri
+# element at the top, and 邦 is used for the kozato element on the right.
+#
+# The mappings of the characters used to the characters in the Unicode,
+# mostly in the, "CJK Radicals Supplement" and "KangXi Radicals", are below.
+#
+# 化 2E85
+# 个 2F09
+# 并 none available - upside-down ハ
+# 刈 2E89
+# 込 2ECC
+# 尚 2E8C
+# 忙 2E96
+# 扎 2E97
+# 汁 2EA1
+# 犯 2EA8
+# 艾 2EBE
+# 邦 2ECF
+# 阡 2ED9
+# 老 2EB9
+# 杰 2EA3
+# 礼 2EAD
+# 疔 2F67
+# 禹 2F71
+# 初 2EC2
+# 買 2EB2
+# 滴 5547
+# 
+# Jim Breen, Tokyo, January 2001
+#            Melbourne, July 2001
+#            Melbourne, Dec  2004
+#            Melbourne, Oct  2013
+#

@@ -1,0 +1,9 @@
+.list {
+    min-height: 40px;
+    margin-top: 10px;
+}
+
+#marked {
+    border-color: #a00;
+    background-color: #a00;
+}

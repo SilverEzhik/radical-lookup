@@ -1,0 +1,44 @@
+#
+#                           R A D K F I L E - 2
+#
+#       Copyright 2007 James Rose and the KanjiCafe.com.
+#
+#   Special GRANT OF LICENSE is hereby given to James Breen and the
+#   Electronic Dictionary Research & Development Group 
+#   such that said licensees may maintain, modify, use,
+#   and redistribute this file.  Derivatives should maintain this notice.
+#   All other rights reserved.
+#
+# Radkfile - 2 is built as required from the Kradfile -2 source file, and is
+# in the same format as the original JIS X 0208 Radkfile.
+#
+# Kradfile - 2 was created by James Rose by means of analysis of
+# all 5,801 JIS X 0212 Kanji and identification of the constituent
+# radicals and other common elements, with the goal of extending the
+# capability of current kanji selection by-multi-radical tools in this range.
+# Care has been exercised to maintain the same format as the original
+# kradfile by Michael Raine and Jim Breen to aid in integration with
+# existing electronic dictionary programs.
+#
+# Two fonts were used in decomposition so as to include as many glyphs as
+# possible.  One apparently based on the JIS X 0212 standard itself, and
+# one based on Unicode.  Each JIS X 0212 kanji is represented by 3 bytes
+# in EUC-JP encoding, as opposed to the two bytes used in the JIS X 0208
+# range, so adjust your software accordingly if necessary.
+#
+# The useable portion of the file consists of 5,801 lines; one for each of the
+# JIS X 0212 kanji. Each line is a follows:
+# - the kanji itself,
+# - a space followed by a colon (:) followed by a space,
+# - one or more radicals/elements which can be seen in the kanji. These
+#   are drawn from JIS X 0208-1997. Where the element alone is not in
+#   JIS X 0208, a kanji which contains the element is used instead.
+#
+# The decomposition is based on what can be seen in typical kanji
+# glyphs. Elements themselves can be further subdivided.
+#
+# You can contact Jim Rose at Jim(at)Kanjicafe.com.
+#
+# Jim Rose, Christiansted, United States Virgin Islands
+# September 2007
+###########################################################

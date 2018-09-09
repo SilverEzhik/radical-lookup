@@ -1,0 +1,44 @@
+#
+#                           R A D K F I L E
+#
+#	Copyright 2001/2007 Michael Raine, James Breen and the Electronic
+#       Dictionary Research & Development Group
+#	See: http://www.edrdg.org/edrdg/licence.html
+#       for permissions for use and redistribution.
+# 
+# This is the data file that drives the multi-radical lookup method in XJDIC,
+# WWWJDIC and possibly other dictionary and related software.
+# 
+# The file is based on work done in 1994/1995 by Michael Raine in which he
+# analyzed all the JIS1/2 kanji and identified the constituent radicals and 
+# other common elements, with the intention of facilitating the selection of
+# kanji within a dictionary program by identifying multiple elements.
+# The file was revised by Jim Breen in September 1995. Further revisions were
+# done in 1998/9 at the suggestion of Wolfgang Conrath, then a revision was
+# carried out in 2001 using suggestions from Yutaka Ohno based on a similar
+# decomposition made by Kobayashi. Further amendments were made in July
+# 2001 after suggestions from Hendrik.
+#
+# The file has been modified on numerous occasions. See the header on the
+# "kradfile" for some details of these.
+# 
+# The format of the file is as follows:
+# 
+# (a) all lines starting with a # are comments
+# (b) all lines starting with a $ identify a kanji element, followed by its
+# stroke-count and optionally either the JIS X 0212 code of the kanji 
+# whose glyph better depicts the element in question or the name of an image
+# file (used by the WWWJDIC server).
+# (c) all other lines with kanji in them are associated with the previously
+# identified element.
+# 
+# The file can, of course, be modified by users to suit their preferences.
+# Note that this file has been automatically compiled from another file,
+# "kradfile", in which each of the JIS1/2 kanji is listed, along with its
+# elements.
+# 
+# Jim Breen, Tokyo, January 2001
+#            Melbourne, July 2001
+#            Melbourne, Dec  2004
+#            Melbourne, Oct  2013
+#
