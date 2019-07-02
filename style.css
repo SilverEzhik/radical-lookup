@@ -1,0 +1,57 @@
+html {
+    background-color: #eee;
+}
+
+body {
+    font-size: 18px;
+    color: #444;
+    font-family: Bahnschrift, DIN, "DIN Alternate", "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+    padding: 0 10px;
+    justify-content: initial;
+    min-height: 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+
+    color: white;
+    background-color: black;
+    font-stretch: semi-condensed;
+    text-shadow: none;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #212121;
+
+    transition: all 0.5s;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 3px;
+}
+a:hover {
+    color: black;
+    background-color: white;
+    transform: scale(1.03);
+
+    box-shadow: 0px 3px 20px #000000;
+}
+
+.list {
+    min-height: 40px;
+    margin-top: 10px;
+}
+
+#marked {
+    border-color: #a00;
+    background-color: #a00;
+}
+#marked:hover {
+    border-color: black;
+}
